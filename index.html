@@ -3,69 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - [Name]</title>
+    <title>Portfolio - Stephen Rhoades</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Stephen Rhoades</h1>
-            <p>
-                <a href="mailto:stephenrhoades04@gmail.com">Email</a> | 
-                <a href="tel:(314) 281-4947">Phone Number</a> | 
-                <a href="https://linkedin.com/in/stephen-rhoades/" target="_blank">LinkedIn</a> | 
-                <a href="https://github.com/serhoades1" target="_blank">GitHub</a>
-            </p>
-        </div>
+        <nav>
+            <div class="container">
+                <a href="#" class="logo">Portfolio</a>
+                <ul class="nav-links">
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
-        <section id="education">
-            <h2>Education</h2>
-            <p><strong>The University of Alabama</strong>, Tuscaloosa, AL | May 2027</p>
-            <p>Bachelor of Science in Computer Science | Minors: Spanish, Psychology</p>
-            <p>GPA: 4.00/4.00</p>
-            <p>Coursework: Data Structures & Algorithms | Linear Algebra | Databases | Operating Systems | Microcomputers</p>
-            <p>STEM Path to the MBA Program</p>
+        <section id="resume">
+            <h2><i class="fas fa-file-alt"></i> Resume</h2>
+            <article>
+                <h3>Education</h3>
+                <p><strong>The University of Alabama</strong>, Tuscaloosa, AL | May 2027</p>
+                <p>Bachelor of Science in Computer Science | Minors: Spanish, Psychology</p>
+                <p>GPA: 4.00/4.00</p>
+                <p>Coursework: Data Structures & Algorithms | Linear Algebra | Databases | Operating Systems | Microcomputers</p>
+                <p>STEM Path to the MBA Program</p>
+
+                <h3>Experience</h3>
+                <div class="job">
+                    <h4>Undergraduate Research Assistant</h4>
+                    <p><em>UA Department of Kinesiology, Oct 2024 - Present</em></p>
+                    <ul>
+                        <li>Assisted Dr. Aguiar Elroy and his team in an energy expenditure study, simulating daily activities.</li>
+                        <li>Organized aggregate walking, activity, and health data from 50+ wearables to train ML model.</li>
+                        <li>Used ActiGraph and StepWatch to trace step and movement patterns.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h4>Computer Repair Technician</h4>
+                    <p><em>Timberland High School, Aug 2022 - May 2023</em></p>
+                    <ul>
+                        <li>Diagnosed and repaired computer issues, saving $2000+ by refurbishing 100+ computers.</li>
+                        <li>Covered hardware and software issues and learned effective troubleshooting techniques.</li>
+                    </ul>
+                </div>
+
+                <h3>Leadership</h3>
+                <div class="role">
+                    <h4>Large Events Chair</h4>
+                    <p><em>ACM (Association for Computing Machinery), Oct 2023 – Present</em></p>
+                    <ul>
+                        <li>Collaborated on club infrastructure and recruitment, increasing membership by 50%.</li>
+                        <li>Laid groundwork for hosting a hackathon in collaboration with MLH and UA staff.</li>
+                    </ul>
+                </div>
+                <div class="role">
+                    <h4>Officer</h4>
+                    <p><em>Triathlon Club, Oct 2023 – Present</em></p>
+                    <ul>
+                        <li>Competed in races while hosting 20-30 weekly hours of training sessions.</li>
+                        <li>Increased membership by 100% through recruitment events.</li>
+                    </ul>
+                </div>
+            </article>
         </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Undergraduate Research Assistant</h3>
-                <p><em>UA Department of Kinesiology, Oct 2024 - Present</em></p>
-                <ul>
-                    <li>Assisted Dr. Aguiar Elroy and his team in an energy expenditure study, simulating daily activities.</li>
-                    <li>Organized aggregate walking, activity, and health data from 50+ wearables to train ML model.</li>
-                    <li>Used ActiGraph and StepWatch to trace step and movement patterns.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Computer Repair Technician</h3>
-                <p><em>Timberland High School, Aug 2022 - May 2023</em></p>
-                <ul>
-                    <li>Diagnosed and repaired computer issues, saving $2000+ by refurbishing 100+ computers.</li>
-                    <li>Covered hardware and software issues and learned effective troubleshooting techniques.</li>
-                </ul>
-            </div>
-        </section>
-        <section id="leadership">
-            <h2>Leadership</h2>
-            <div class="role">
-                <h3>Large Events Chair</h3>
-                <p><em>ACM (Association for Computing Machinery), Oct 2023 – Present</em></p>
-                <ul>
-                    <li>Collaborated on club infrastructure and recruitment, increasing membership by 50%.</li>
-                    <li>Laid groundwork for hosting a hackathon in collaboration with MLH and UA staff.</li>
-                </ul>
-            </div>
-            <div class="role">
-                <h3>Officer</h3>
-                <p><em>Triathlon Club, Oct 2023 – Present</em></p>
-                <ul>
-                    <li>Competed in races while hosting 20-30 weekly hours of training sessions.</li>
-                    <li>Increased membership by 100% through recruitment events.</li>
-                </ul>
-            </div>
-        </section>
+
         <section id="projects">
             <h2>Projects</h2>
             <div class="project">
@@ -84,6 +89,7 @@
                 </ul>
             </div>
         </section>
+
         <section id="skills">
             <h2>Skills</h2>
             <ul>
@@ -93,9 +99,19 @@
                 <li><strong>Languages:</strong> English (Native), Spanish (Conversational)</li>
             </ul>
         </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                <a href="mailto:stephenrhoades04@gmail.com">Email</a> | 
+                <a href="tel:3142814947">Phone Number</a> | 
+                <a href="https://linkedin.com/in/stephen-rhoades/ " target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/serhoades1" target="_blank">GitHub</a>
+            </p>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2024 [Name]</p>
+        <p>&copy; 2024 Stephen Rhoades</p>
     </footer>
     <script src="scripts.js"></script>
 </body>
