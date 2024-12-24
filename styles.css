@@ -11,6 +11,8 @@ body {
 .topnav {
     background-color: #333;
     overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
   }
   
   /* Style the links inside the navigation bar */
@@ -84,7 +86,7 @@ main {
 }
 
 h2 {
-    border-bottom: 2px solid #0077cc;
+    border-bottom: 2px solid #333;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
 }
@@ -105,6 +107,6 @@ ul li {
 footer {
     text-align: center;
     padding: 1em;
-    background: #0077cc;
+    background: #333;
     color: #fff;
 }
