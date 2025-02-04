@@ -3,7 +3,7 @@
     "target": "es5",
     "lib": ["dom", "es6"],
     "allowJs": true,
-    "jsx": "react",  // Updated to "react" based on the second set, change if needed
+    "jsx": "react-jsx",  // Updated for React 17/18 JSX Transform
     "moduleResolution": "node",
     "module": "esnext",
     "strict": true,
@@ -11,7 +11,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"],
+  "include": ["website-portfolio/project/src"],
+  "exclude": ["node_modules", "build", "dist"],  // Optional but recommended
   "files": [],
   "references": [
     { "path": "./tsconfig.node.json" }
