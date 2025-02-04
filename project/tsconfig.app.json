@@ -18,7 +18,8 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "types": ["istanbul-lib-report", "istanbul-reports", "prettier", "semver"]
   },
   "include": ["src"]
 }

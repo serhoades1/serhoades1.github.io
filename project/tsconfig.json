@@ -1,13 +1,19 @@
 {
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es6"],
+    "allowJs": true,
+    "jsx": "react",  // Updated to "react" based on the second set, change if needed
+    "moduleResolution": "node",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ],
-  "compilerOptions": {
-    "jsx": "react"
-    // other options
-  }
-
-  // other configurations
+  ]
 }
