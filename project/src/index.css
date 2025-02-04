@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 1s ease-out;
+}
+
+.nav-link {
+  @apply px-4 py-2 text-gray-400 hover:text-red-500 transition-colors duration-300 cursor-pointer;
+}
+
+.nav-link.active {
+  @apply text-red-500;
+}
+
+.section-bg {
+  @apply absolute inset-0 opacity-10 bg-cover bg-center bg-no-repeat -z-10 transition-opacity duration-1000;
+}
