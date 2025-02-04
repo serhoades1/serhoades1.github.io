@@ -11,7 +11,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["website-portfolio/project/src"],
+  "include": ["src"],
   "exclude": ["node_modules", "build", "dist"],  // Optional but recommended
   "files": [],
   "references": [
