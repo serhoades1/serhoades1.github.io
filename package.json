@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@types/react": "^19.0.8",
+    "@vitejs/plugin-react": "^4.3.4",
+    "lucide-react": "^0.474.0",
+    "react": "^19.0.0"
+  }
+}
