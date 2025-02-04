@@ -57,16 +57,16 @@ function App() {
         />
         <div className="space-y-8 text-center">
           <h1 className="text-6xl font-bold bg-gradient-to-r from-crimson-500 to-red-600 bg-clip-text text-transparent animate-fade-in">
-            Computer Science Student
+            Stephen Rhoades
           </h1>
           <p className="text-2xl text-gray-400 max-w-2xl mx-auto animate-slide-up">
-            University of Alabama '27 | STEM Path to MBA
+            Computer Science Student at University of Alabama
           </p>
           <div className="flex space-x-4 justify-center animate-fade-in">
-            <SocialLink href="mailto:your.email@example.com" icon={<Mail />} label="Email" />
+            <SocialLink href="mailto:serhoades1@crimson.ua.edu" icon={<Mail />} label="Email" />
             <SocialLink href="tel:+1234567890" icon={<Phone />} label="Phone" />
-            <SocialLink href="https://linkedin.com" icon={<Linkedin />} label="LinkedIn" />
-            <SocialLink href="https://github.com" icon={<Github />} label="GitHub" />
+            <SocialLink href="https://linkedin.com/in/stephen-rhoades" icon={<Linkedin />} label="LinkedIn" />
+            <SocialLink href="https://github.com/serhoades1" icon={<Github />} label="GitHub" />
           </div>
         </div>
         <div className="absolute bottom-8 animate-bounce">
@@ -92,7 +92,7 @@ function App() {
               description={
                 <div className="space-y-2">
                   <p>GPA: 4.00/4.00</p>
-                  <p>Minors: Spanish, Psychology</p>
+                  <p>STEM Path to MBA Program</p>
                   <p className="text-gray-400">Relevant Coursework:</p>
                   <ul className="list-disc list-inside text-gray-300">
                     <li>Data Structures & Algorithms</li>
@@ -101,7 +101,6 @@ function App() {
                     <li>Operating Systems</li>
                     <li>Microcomputers</li>
                   </ul>
-                  <p className="text-purple-400">STEM Path to the MBA Program</p>
                 </div>
               }
             />
@@ -126,9 +125,9 @@ function App() {
               period="October 2024 - Present"
               description={
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
-                  <li>Assisted in energy expenditure study using portable metabolic cart and accelerometers</li>
-                  <li>Organized data from 50+ wearables for machine learning model training</li>
-                  <li>Utilized ActiGraph and StepWatch for movement pattern analysis</li>
+                  <li>Assisting in energy expenditure study using portable metabolic cart and accelerometers</li>
+                  <li>Organizing data from 50+ wearables for machine learning model training</li>
+                  <li>Utilizing ActiGraph and StepWatch for movement pattern analysis</li>
                 </ul>
               }
             />
@@ -289,26 +288,20 @@ function App() {
                 <ContactItem 
                   icon={<Mail className="text-red-500" />}
                   label="Email"
-                  value="your.email@example.com"
-                  href="mailto:your.email@example.com"
-                />
-                <ContactItem 
-                  icon={<Phone className="text-red-500" />}
-                  label="Phone"
-                  value="+1 234 567 890"
-                  href="tel:+1234567890"
+                  value="serhoades1@crimson.ua.edu"
+                  href="mailto:serhoades1@crimson.ua.edu"
                 />
                 <ContactItem 
                   icon={<Linkedin className="text-red-500" />}
                   label="LinkedIn"
                   value="Connect on LinkedIn"
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/stephen-rhoades"
                 />
                 <ContactItem 
                   icon={<Github className="text-red-500" />}
                   label="GitHub"
                   value="Follow on GitHub"
-                  href="https://github.com"
+                  href="https://github.com/serhoades1"
                 />
               </div>
             </div>
